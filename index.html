@@ -89,7 +89,8 @@
     <div class="container">
 
         <strong>Azure ssh command:</strong> <br>
-        ssh webapps@51.141.54.168
+        ssh webapps@51.141.54.168 <br>
+        <i>(password for azure is on trello)</i>
 
     </div>
 
@@ -121,6 +122,20 @@
 
         <strong>Static html repo: ssh clone address:</strong> <br>
         git@gitlab.doc.ic.ac.uk:ah4515/webapps-front.git
+
+    </div>
+
+    <br>
+    <br>
+
+    <div class="container">
+
+        <strong>Copying files to server</strong> <br>
+        scp -r image/ webapps@51.141.54.168:~/ <br>
+
+        <i>where the image folder is in the directory from which you run the command</i><br>
+        <i>this command will upload the whole image folder to the server</i><br>
+        <i>(password for azure is on trello)</i>
 
     </div>
 
